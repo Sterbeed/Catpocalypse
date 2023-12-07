@@ -3,20 +3,23 @@
 	"id": "catpocalypse",
 	"version": "${version}",
 	"name": "Catpocalypse",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Epic Cat fights and cat themed mod!",
 	"authors": [
-		"Me!"
+		"Sterbee"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Sterbeed/Catpocalypse"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/catpocalypse/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.sterbee.catpocalypse.Catpocalypse"
+		],
+		"client": [
+			"net.sterbee.catpocalypse.CatpocalypseClient"
 		],
 		"fabric-datagen": [
 			"net.sterbee.catpocalypse.CatpocalypseDataGenerator"
